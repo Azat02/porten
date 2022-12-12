@@ -1,0 +1,504 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif; }
+
+.row {
+  margin: 0; }
+
+.main {
+  min-height: 125px; }
+  .main nav {
+    height: 44px;
+    background-color: #000;
+    padding: 13px 0; }
+    .main nav .nav_block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .main nav .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 35%; }
+      .main nav .nav a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #969696;
+        text-decoration: none;
+        margin-left: -37px; }
+    .main nav .nav2 {
+      width: 65%;
+      display: flex;
+      justify-content: flex-end; }
+      .main nav .nav2 .registr a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: right;
+        color: #969696;
+        text-decoration: none; }
+  .main header {
+    height: 80px;
+    background: #0F0F0F;
+    padding: 25px 0; }
+    .main header .header_block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .main header .header_block_first {
+        width: 20%; }
+      .main header .header_block_second {
+        width: 80%; }
+        .main header .header_block_second .like {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center; }
+          .main header .header_block_second .like a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #969696;
+            margin-left: 20px; }
+            .main header .header_block_second .like a:hover {
+              color: blue; }
+
+.hamburger {
+  display: none; }
+
+.porten {
+  background: url(../img/Rectangle.jpg) center center/cover no-repeat;
+  height: 810px;
+  margin-top: -1px;
+  padding-top: 160px; }
+  .porten_block {
+    width: 320px;
+    height: 320px;
+    border: 5px solid #fff;
+    margin: 0 auto;
+    padding: 93px 64px 0 63px; }
+    .porten_block_img {
+      width: 185px;
+      height: 86px; }
+    .porten_block_divider {
+      width: 179px;
+      top: 459px;
+      border: 1px solid #FFFFFF;
+      margin-top: 4px; }
+    .porten_block_title {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-top: 7px; }
+  .porten_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 80px; }
+
+.season {
+  min-height: 730px; }
+  .season_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+  .season .first {
+    margin: 0;
+    min-height: 730px;
+    background-color: #000;
+    padding: 93px 5px;
+    width: 60%; }
+    .season .first_title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+    .season .first_divider {
+      width: 120px;
+      height: 0px;
+      border: 1px solid #FFFFFF;
+      margin: 50px auto; }
+    .season .first_items {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      .season .first_items_item .block {
+        width: 260px;
+        height: 325px;
+        background: #191B1C;
+        padding: 55px 0 0 23px; }
+      .season .first_items_item_title {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-top: 25px; }
+      .season .first_items_item_subtitle {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: #D0D0D0;
+        margin-top: 10px; }
+  .season .second {
+    min-height: 741px;
+    background: url(../img/Rectangle8.jpg) center center/cover no-repeat;
+    margin: 0;
+    padding-top: 484px;
+    width: 40%; }
+    .season .second_title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin: 0 auto; }
+    .season .second_btn {
+      width: 138px;
+      height: 47px;
+      border: 1px solid #FFFFFF;
+      background: none;
+      display: block;
+      margin: 0 auto;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+  .season .third {
+    width: 40%;
+    height: 600px;
+    background: url(../img/Rectangle9.jpg) center center/cover no-repeat; }
+  .season .fourth {
+    height: 600px;
+    background-color: #000;
+    padding-top: 100px;
+    width: 60%; }
+    .season .fourth_text {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 150%;
+      text-align: center;
+      color: #FFFFFF; }
+    .season .fourth_btn {
+      width: 311px;
+      height: 47px;
+      border: 1px solid #FFFFFF;
+      background: none;
+      display: block;
+      margin: 0 auto;
+      margin-top: 60px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+
+.brand {
+  min-height: 1000px;
+  background-color: #000;
+  padding: 120px 0 150px 0; }
+  .brand .brand3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; }
+  .brand .brand2 {
+    width: 260px;
+    height: 445px; }
+  .brand_title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto; }
+  .brand_divider {
+    width: 120px;
+    height: 1px;
+    border: 1px solid #FFFFFF;
+    margin: 40px auto; }
+  .brand_block {
+    width: 260px;
+    height: 325px;
+    background: #191B1C;
+    padding: 55px 0 0 23px;
+    margin-top: 40px; }
+  .brand_item_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 25px; }
+  .brand_item_subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    margin-top: 10px; }
+
+.our {
+  min-height: 362px;
+  background: #0F0F0F;
+  padding: 60px 0 74px 0; }
+  .our_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.about {
+  min-height: 400px;
+  background: url(../img/Rectangle15.svg) center center/cover no-repeat;
+  padding: 80px 0; }
+  .about .about3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .about .about2 {
+    width: 31%; }
+  .about_shop {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .about_text {
+    min-height: 147px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF; }
+  .about_buttons {
+    width: 350px;
+    min-height: 147px;
+    margin-top: 20px; }
+    .about_buttons button {
+      min-width: 70px;
+      height: 41px;
+      border: none;
+      background-color: #0F0F0F;
+      padding: 10px 20px 10px 20px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #D0D0D0;
+      margin: 20px 20px 0 0; }
+  .about_text3 {
+    min-height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 40px; }
+  .about input {
+    width: 210px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    margin-top: 37px;
+    padding-left: 10px;
+    color: #fff; }
+  .about input::placeholder {
+    color: silver; }
+  .about_btn3 {
+    width: 140px;
+    height: 42px;
+    background: #0F0F0F;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: -4px; }
+
+.footer {
+  height: 50px;
+  background: #0F0F0F;
+  padding: 17px 0; }
+  .footer_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer_block_left {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: #D0D0D0; }
+    .footer_block_right {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      text-decoration-line: underline;
+      color: #D0D0D0; }
+
+@media (max-width: 1200px) {
+  .our_items {
+    flex-wrap: wrap; }
+
+  .first_items_item:first-child {
+    display: none; }
+
+  .season .fourth_text {
+    font-size: 14px; }
+
+  .about_btn3 {
+    margin: 20px 0; } }
+@media (max-width: 991px) {
+  .main nav .nav {
+    width: 60%; }
+
+  .season_block {
+    flex-direction: column; }
+    .season_block .first {
+      width: 100%; }
+    .season_block .second {
+      width: 100%; }
+    .season_block .third {
+      width: 100%; }
+    .season_block .fourth {
+      width: 100%; }
+
+  .brand .brand3 {
+    justify-content: space-evenly; }
+
+  .our_items {
+    justify-content: space-evenly; }
+
+  .about .about3 {
+    flex-direction: column; }
+  .about .about2 {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column; }
+  .about_text {
+    text-align: center; }
+  .about_text3 {
+    text-align: center; }
+  .about_btn3 {
+    margin: 37px 0 0 0; }
+  .about_shop {
+    text-align: center; }
+  .about_buttons {
+    margin: 20px auto; }
+  .about_btn3 {
+    margin: 17px auto; }
+  .about input {
+    margin: 37px auto 0 auto; } }
+@media (max-width: 767px) {
+  .brand .brand2 {
+    width: 240px;
+    height: 445px; }
+
+  .brand_block {
+    width: 220px;
+    height: 290px;
+    padding: 35px 0 0 0; }
+
+  .main {
+    min-height: 75px;
+    position: fixed;
+    width: 100%; }
+    .main nav {
+      display: none; }
+    .main header .header_block_second .like {
+      position: absolute;
+      top: 0;
+      left: -100%;
+      height: 100vh;
+      width: 50%;
+      padding: 20px 15px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.6);
+      justify-content: center;
+      transition: 0.5s all; }
+      .main header .header_block_second .like a {
+        margin: 10px 0;
+        padding-right: 0;
+        color: #fff; }
+      .main header .header_block_second .like_active {
+        left: 0; }
+
+  .porten_text {
+    font-size: 12px; }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 12px; }
+    .hamburger span {
+      display: block;
+      height: 2px;
+      width: 100%;
+      margin-bottom: 2px;
+      background-color: #fff;
+      transition: 0.5s all; }
+    .hamburger_active span {
+      margin-bottom: -2px; }
+      .hamburger_active span:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg); }
+      .hamburger_active span:nth-child(2) {
+        display: none; }
+      .hamburger_active span:nth-child(3) {
+        transform: translateY(3px) rotate(45deg); } }
+@media (max-width: 575px) {
+  .porten_block {
+    width: 270px;
+    height: 270px;
+    padding: 68px 39px 0px 39px; }
+  .porten_text {
+    width: 294px;
+    margin: 80px auto 0 auto; }
+
+  .first_items {
+    flex-wrap: wrap; }
+    .first_items_item:first-child {
+      display: block; }
+    .first_items_item {
+      margin-bottom: 50px; }
+
+  .season .fourth_text {
+    font-size: 9px; }
+  .season .fourth_btn {
+    width: 270px;
+    font-size: 15px; }
+  .season .first_title {
+    font-size: 30px; }
+  .season .second_title {
+    font-size: 30px; }
+
+  .brand_title {
+    font-size: 27px; }
+
+  .about_buttons {
+    width: 90%; }
+    .about_buttons button {
+      font-size: 12px; } }
+
+/*# sourceMappingURL=style.css.map */
